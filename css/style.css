@@ -28,9 +28,9 @@
   background: #0f4c81;
 }
 
-/* .card-body {
-  height: 250px;
-} */
+.card-img-top {
+  height: 200px;
+}
 
 @media (min-width: 1100px) {
   .prot-item {
