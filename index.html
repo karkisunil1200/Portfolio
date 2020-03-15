@@ -34,22 +34,22 @@
                 <div class="d-flex flex-row justify-content-between align-items-center">
                   <h1 class="display-4">Sunil Karki</h1>
                   <div class="d-none d-md-block">
-                    <a href="http://linkedin.com" class="text-white">
+                    <a href="http://linkedin.com" target="_blank" class="text-white">
                       <i class="fab fa-linkedin"></i>
                     </a>
                   </div>
                   <div>
-                    <a href="http://github.com" class="text-white">
+                    <a href="http://github.com" target="_blank" class="text-white">
                       <i class="fab fa-github"></i>
                     </a>
                   </div>
                   <div>
-                    <a href="http://facebook.com" class="text-white">
+                    <a href="http://facebook.com" target="_blank" class="text-white">
                       <i class="fab fa-facebook"></i>
                     </a>
                   </div>
                   <div>
-                    <a href="http://github.com" class="text-white">
+                    <a href="http://github.com" target="_blank" class="text-white">
                       <i class="fab fa-github"></i>
                     </a>
                   </div>
@@ -73,11 +73,7 @@
                     <i class="fas fa-graduation-cap  fa-2x d-block"></i>
                     <span class="d-none d-sm-block">Resume</span>
                   </div>
-                  <div
-                    class="prot-item p-4 bg-danger"
-                    data-toggle="collapse"
-                    data-target="#contact"
-                  >
+                  <div class="prot-item p-4 contact" data-toggle="collapse" data-target="#contact">
                     <i class="fas fa-envelope fa-2x d-block"></i>
                     <span class="d-none d-sm-block">Contact</span>
                   </div>
@@ -126,8 +122,7 @@
         <div class="card card-body work text-white py-5">
           <h2>My Work</h2>
           <p class="lead">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat a sapiente suscipit,
-            voluptas quaerat architecto?
+            These are few of the company I have worked on my past.
           </p>
         </div>
         <div class="card card-body py-5">
@@ -177,8 +172,8 @@
         <div class="card card-body resume text-white py-5">
           <h2>My Work</h2>
           <p class="lead">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat a sapiente suscipit,
-            voluptas quaerat architecto?
+            These are few of the projects that I have been involved in during my time in Lambda
+            School.
           </p>
         </div>
         <div class="card card-body py-5">
@@ -197,7 +192,10 @@
                   My primary role was designing and developing the landing page using HTML/CSS/Less
                   . <br />
                 </p>
-                <a href="https://github.com/bw-anywhere-fitness/gym" class="btn btn-primary"
+                <a
+                  href="https://github.com/bw-anywhere-fitness/gym"
+                  target="_blank"
+                  class="btn btn-primary"
                   >Github Link</a
                 >
               </div>
@@ -213,7 +211,10 @@
                   front-end-developer, where I designed the functionality. It was built by using
                   HTML, CSS, React, and Redux for the state management.
                 </p>
-                <a href="https://github.com/lambda-build-week-bookr/BookR" class="btn btn-primary"
+                <a
+                  href="https://github.com/lambda-build-week-bookr/BookR"
+                  target="_blank"
+                  class="btn btn-primary"
                   >Github Link</a
                 >
               </div>
@@ -231,6 +232,7 @@
                 </p>
                 <a
                   href="https://github.com/Build-WeekFT-PrisonerSkills/PS-Frontend"
+                  target="_blank"
                   class="btn btn-primary"
                   >Github Link</a
                 >
@@ -242,26 +244,21 @@
 
       <!--Contact-->
       <div id="contact" class="collapse">
-        <div class="card card-body bg-danger text-white py-5">
+        <div class="card card-body contact text-white py-5">
           <h2>Contacts</h2>
           <p class="lead">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat a sapiente suscipit,
-            voluptas quaerat architecto?
+            Please leave me your contact information so we can get in touch. Thank you
           </p>
         </div>
 
         <div class="card card-body py-5">
           <h3>Get in touch</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus eveniet minima
-            reprehenderit magni ex nobis laboriosam recusandae quasi temporibus eum! Deleniti
-            pariatur numquam eos voluptate, saepe eligendi velit nostrum possimus?
-          </p>
+
           <form>
             <div class="form-group">
               <div class="input-group">
                 <div class="input-group-prepend">
-                  <span class="input-group-text bg-danger text-white">
+                  <span class="input-group-text inputIcon text-white">
                     <i class="fas fa-user"></i>
                   </span>
                 </div>
@@ -272,7 +269,7 @@
             <div class="form-group">
               <div class="input-group">
                 <div class="input-group-prepend">
-                  <span class="input-group-text bg-danger text-white">
+                  <span class="input-group-text inputIcon text-white">
                     <i class="fas fa-envelope"></i>
                   </span>
                 </div>
@@ -283,7 +280,7 @@
             <div class="form-group">
               <div class="input-group">
                 <div class="input-group-prepend">
-                  <span class="input-group-text bg-danger text-white">
+                  <span class="input-group-text inputIcon text-white">
                     <i class="fas fa-pencil-alt"></i>
                   </span>
                 </div>
@@ -294,7 +291,7 @@
                 ></textarea>
               </div>
             </div>
-            <input type="submit" value="submit" class="btn btn-danger btn-block btn-lg" />
+            <input type="submit" value="submit" class="btn inputIcon btn-block btn-lg" />
           </form>
         </div>
       </div>

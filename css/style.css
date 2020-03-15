@@ -16,6 +16,10 @@
   color: white;
 }
 
+.card {
+  border-radius: 0;
+}
+
 .work {
   background: purple;
 }
@@ -26,10 +30,19 @@
 
 .main {
   background: #0f4c81;
+  border-radius: 0;
 }
 
 .card-img-top {
   height: 200px;
+}
+
+.contact {
+  background: #f35858;
+}
+
+.inputIcon {
+  background: #f35858;
 }
 
 @media (min-width: 1100px) {
